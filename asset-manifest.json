@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio3/static/css/main.bf72da76.css",
+    "main.js": "/portfolio3/static/js/main.4711cd97.js",
+    "static/media/solar-bg-big.jpeg": "/portfolio3/static/media/solar-bg-big.3e5f7a7688a357f4bba3.jpeg",
+    "static/media/solar-bg.jpg": "/portfolio3/static/media/solar-bg.b9699c88535ca85b1b86.jpg",
+    "static/media/pwm.png": "/portfolio3/static/media/pwm.6c04fd792bf55c1fc277.png",
+    "static/media/mppt.png": "/portfolio3/static/media/mppt.6f7b3fb4a91f4817c93c.png",
+    "index.html": "/portfolio3/index.html",
+    "main.bf72da76.css.map": "/portfolio3/static/css/main.bf72da76.css.map",
+    "main.4711cd97.js.map": "/portfolio3/static/js/main.4711cd97.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf72da76.css",
+    "static/js/main.4711cd97.js"
+  ]
+}
