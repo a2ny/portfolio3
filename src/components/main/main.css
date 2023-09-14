@@ -1,0 +1,217 @@
+.main-container h1 {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+  font-weight: bold;
+}
+.main-container {
+  padding: 0px 20px 20px 20px;
+  background-color: #349d9d;
+}
+.main-container .solar-panels-container {
+  display: flex;
+  position: relative;
+}
+.main-container .solar-panels-container .info1 {
+  width: 126px;
+}
+.main-container .solar-panels-container .info1 h1 {
+  font-size: 16px;
+  color: #edf7b5;
+}
+.main-container .solar-panels-container .info1 p {
+  color: #fff;
+}
+.main-container .solar-panels-container .info2 {
+  width: 126px;
+}
+.main-container .solar-panels-container .info2 h1 {
+  font-size: 16px;
+  color: #edf7b5;
+}
+.main-container .solar-panels-container .info2 p {
+  color: #fff;
+}
+.main-container .solar-panels-container .info3 {
+  width: 126px;
+}
+.main-container .solar-panels-container .info3 h1 {
+  font-size: 16px;
+  color: #edf7b5;
+}
+.main-container .solar-panels-container .info3 p {
+  color: #fff;
+}
+.mppt-container {
+  background: #2c3838d3;
+  height: auto;
+  width: 300px;
+  position: relative;
+  left: 20%;
+  text-align: center;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgb(56, 123, 199);
+}
+.mppt-container h1 {
+  position: relative;
+  color: #edf7b5;
+  font-size: 16px;
+  right: 10%;
+}
+.mppt-container .mppt-info img {
+  position: relative;
+  width: 143px;
+  height: 172px;
+  right: 20%;
+  top: 20px;
+}
+.mppt-container .mppt-info {
+  display: flex;
+}
+.mppt-container .mppt-info p {
+  right: 20%;
+  position: relative;
+  margin-top: 8px;
+  color: #fff;
+}
+.info2-container {
+  position: relative;
+  width: 310px;
+  height: auto;
+  background: #2c3838d7;
+  margin-top: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgb(56, 123, 199);
+}
+.info2-container .pwm-container .pwm-info {
+  display: flex;
+}
+.info2-container .pwm-container h1 {
+  font-size: 16px;
+  color: #edf7b5;
+}
+.info2-container .pwm-container .pwm-info img {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  left: 20%;
+}
+.info2-container .pwm-container .pwm-info p {
+  left: 10%;
+  position: relative;
+  text-align: center;
+  margin-top: 8px;
+  color: #fff;
+}
+.battery-container {
+  position: relative;
+  width: 400px;
+  height: auto;
+  background: #2c3838d7;
+  margin-top: 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgb(56, 123, 199);
+}
+.battery-container h1 {
+  color: #edf7b5;
+  font-size: 26px;
+  font-weight: bold;
+}
+.battery-container p {
+  color: #fff;
+  font-size: 16px;
+  padding: 20px;
+}
+
+@media screen and (min-width: 1000px) {
+  .solar-panels-container {
+    align-items: center;
+    justify-content: center;
+  }
+  .main-container .solar-panels-container .info1 {
+    width: 30vw;
+  }
+  .main-container .solar-panels-container .info1 h1 {
+    font-size: 40px;
+    color: #edf7b5;
+  }
+  .main-container .solar-panels-container .info1 p {
+    font-size: 22px;
+    color: #fff;
+  }
+  .main-container .solar-panels-container .info2 {
+    width: 30vw;
+  }
+  .main-container .solar-panels-container .info2 h1 {
+    font-size: 40px;
+    color: #edf7b5;
+  }
+  .main-container .solar-panels-container .info2 p {
+    font-size: 22px;
+    color: #fff;
+  }
+  .main-container .solar-panels-container .info3 {
+    width: 30vw;
+  }
+  .main-container .solar-panels-container .info3 h1 {
+    font-size: 40px;
+    color: #edf7b5;
+  }
+  .main-container .solar-panels-container .info3 p {
+    font-size: 22px;
+    color: #fff;
+  }
+  .scc-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .main-container h1 {
+    font-size: 40px;
+    font-weight: 600;
+    text-shadow: 1px 2px 10px rgb(204, 204, 204);
+  }
+  .info1-container {
+    right: 10vw;
+    position: relative;
+    margin: 30px;
+  }
+  .info2-container {
+    left: 10vw;
+    position: relative;
+    margin: 30px;
+  }
+  .mppt-container {
+    width: 25vw;
+  }
+  .mppt-container h1 {
+    font-size: 30px;
+  }
+  .mppt-container p {
+    margin: auto;
+    left: auto;
+    right: auto;
+    transform: translateX(+10%);
+    font-size: 22px;
+  }
+  .info2-container {
+    width: 25vw;
+  }
+  .pwm-info p {
+    font-size: 22px;
+  }
+  .info2-container .pwm-container h1 {
+    font-size: 30px;
+  }
+  .battery-container {
+    width: 50vw;
+    margin: 30px auto;
+  }
+  .battery-container p {
+    font-size: 22px;
+  }
+}
